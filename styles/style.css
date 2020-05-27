@@ -1,0 +1,145 @@
+@font-face{
+    font-family: promptbold;
+    src:url("../fonts/Prompt-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: promptlight;
+    src: url("../fonts/Prompt-Light.ttf");
+}
+@font-face{
+    font-family: promptextlight;
+    src: url("../fonts/Prompt-ExtraLight.ttf");
+}
+@font-face{
+    font-family: promptextregular;
+    src: url("../fonts/Prompt-Regular.ttf");
+}
+body {
+
+    font-family: promptlight, Prompt-ExtraBold,promptextregular, ubuntu-medium, gotham-bold, gotham light, prompt-regular;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{ 
+    font-family: promptextlight;
+    font-size: 3.5vw;
+    top: 20px;
+    left: 45%;
+    letter-spacing: 1px;
+    font-weight: 100;
+    position: absolute
+      
+}
+h6{ 
+    font-family: promptextregular;
+    font-size: 1.2vw;
+    top: 10%;
+    left: 47%;
+    letter-spacing: 1px;
+    font-weight: 100;
+    position: absolute
+      
+}
+#principal{
+    margin:auto;
+}
+
+.header-top{
+    height: 50px;
+    background: #333333 ;
+    position: relative;
+    font-family: ubuntu;
+}
+
+.logo{
+    float: left;
+    left: 5%;
+    top: 1%;
+    position: fixed;
+}
+
+.header-nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px 0 0;
+    padding: 10px;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    }
+
+#homepage{
+    
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #044f77;
+    margin-block-end: 0;
+}
+
+.predio{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+#localizacao{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-block-end: 0;
+    
+}
+
+.imgloc{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.containertext{
+    width: 200;
+    height: 200;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 20%;
+    left: 10%;
+    background-color: #c53a3a;
+}
+
+.containermap{
+    width:564; 
+    height:200;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 44%;
+    left: 11%;
+}
+#comodidade{
+    background-image: url("../img/cubes@2x.png");
+    background-repeat: repeat;
+    height: 1181px;
+    max-width: 100%;
+    position: relative;
+}
